@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@android:style/TextAppearance.Holo.Large"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
+    android:layout_margin="@dimen/listview_textview_margin"
+    android:background="@android:color/holo_orange_light"
+    android:gravity="center" />

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+        style="@android:style/TextAppearance.Holo.Medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:gravity="center"
+        android:text="@string/my_apps_list" />
+
+    <ToggleButton
+        android:id="@+id/buttonToggleCompletedApps"
+        style="@android:style/Widget.Button.Small"
+        android:background="@drawable/yellow_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:textOff="@string/show_completed"
+        android:textOn="@string/show_all" />
+</LinearLayout>
